@@ -346,6 +346,33 @@
     
     
     <article class="index-post">
+        <a class="abstract-title" href="/2019/07/23/线程的终止/">
+            
+                <span>线程的终止</span>
+        </a>
+        <div class="abstract-content">
+            当前线程的终止是在preath_clean_pop抛出异常时线程才终止；
+若是一个优先级高的进程进入就绪状态时，并不会终止当前线程，只是有较高的概率抢到CPU的执行权，而不是一定能抢到执行权；
+sleep()和wait()方法只是暂停了线程的运行，而不是终止线程；
+如果创建一个新的线程，该线程也加入到抢占CPU的队伍中，但能否抢到还不清楚，不是一定会终止当前线程
+
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/07/23</span>
+            </div>
+            <!-- tags  -->
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
         <a class="abstract-title" href="/2019/07/22/ArrayList/">
             
                 <span>[Untitled Post]</span>
@@ -594,9 +621,22 @@ More...
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 4
+        Total : 5
         </div>
         <!-- search  -->
         
@@ -613,6 +653,11 @@ More...
     
         <li class="archive-post-item">
             <span class="archive-post-date">05/18</span><a class="archive-post-title" href="/2019/05/18/工厂模式/">工厂模式(Spring)及其利弊</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">05/11</span><a class="archive-post-title" href="/2019/05/11/FirstHexo/">[Untitled Post]</a>
         </li>
     
     
@@ -635,12 +680,12 @@ More...
     
         </ul>
     
-    <div class="archive-year"> 2019 </div>
+    <div class="archive-year"> Invalid date </div>
     <ul class="year-list">
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">05/11</span><a class="archive-post-title" href="/2019/05/11/FirstHexo/">[Untitled Post]</a>
+            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href="/2019/07/23/线程的终止/">线程的终止</a>
         </li>
     
     
